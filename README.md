@@ -43,6 +43,16 @@ project_root/
 └── requirements.txt  
 </pre>
 
+
+## 🚀 How to Run
+
+### 1. In your virual environment, install PyTorch according to your cuda version from *[pytorch.org](https://pytorch.org/)*
+
+### 2. Install the rest of dependencies
+```bash
+pip install -r requirements.txt
+```
+
 ## 🧠 Approach Details
 
 **1. Stage 1 (Text)**: Proved that captions contain significant signal but suffer from ambiguity (e.g., "Delicious!" applies to both Food and Drink).
