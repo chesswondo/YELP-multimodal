@@ -14,7 +14,7 @@ We conducted an ablation study to compare different architectures. The final ens
 | **III** | **Vision Only** | **95.0%** | EfficientNet-B0 (Fine-tuned). |
 | **IV** | **Multimodal Fusion** | **95.6%** | EfficientNet + LoRA-BERT + Meta-features + XGBoost. |
 
-Key Insight: While the Vision model is dominant (95%), the fusion approach reduced the remaining error rate by ~12%, correctly classifying difficult cases like "Menu" (visually ambiguous) or distinguishing "Inside" from "Food".
+Key Insight: While the Vision model is dominant (95%), the fusion approach reduced the remaining error rate by ~12%, correctly classifying difficult visually ambiguous cases.
 
 
 ## 🛠️ Tech Stack
@@ -36,9 +36,9 @@ project_root/
 │   ├── test/               # Images (e.g., test/photo2.jpg)  
 │   └── ...                 # Generated CSVs and models will appear here  
 ├── notebooks/
-│   ├── stage1.ipynb           # Text-only LogReg + fine-tuned DistilBERT
-│   ├── stage2.ipynb           # Image-only EfficientNet-B0
-│   └── stage3.ipynb           # Different multimodal fusions
+│   ├── stage_1.ipynb           # Text-only LogReg + fine-tuned DistilBERT
+│   ├── stage_2.ipynb           # Image-only EfficientNet-B0
+│   └── stage_3.ipynb           # Different multimodal fusions
 ├── README.md
 └── requirements.txt  
 </pre>
