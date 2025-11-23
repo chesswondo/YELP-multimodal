@@ -72,3 +72,6 @@ The ensemble the most successfully corrects CNN errors in ambience scenarios suc
 
 - ***Food/Inside***: CNN sees a plate on a table -> predicts *Food*; Text says "Cozy atmosphere" -> Ensemble corrects to *Inside*.
 - ***Inside/Outside***: CNN sees chairs and tables -> predicts *Inside*; Text says "Bar in the outdoor area" -> Ensamble corrects to *Outside*.
+
+### Examples:
+![example_inference](assets/readme_images/inference.png)
